@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'KGPiecebyPiece';
+	src: url(../font/KGPiecebyPiece.ttf);
+}
+h2, .text-pe {
+	font-family: 'KGPiecebyPiece';
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+.menu-2 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background: #F1EDED;
+	padding: 0.7em;
+}
+.hover:hover,
+.hover:focus {
+	transition: 1s;
+	border: solid 1px rgba(0, 0, 255, 0.41);
+    border-radius: 4%;
+}
+.hover {
+	transition: 1s;
+	border: solid 1px transparent;
+}
+
+.top {
+	margin-top: 3px;
+}
+.margin-top {
+	margin-top: 5.2em;
+}
+.navbar-color {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 70px;
+	background: #000;
+}
+p.pull-left {
+    margin: 0;
+}
+.nav-list>li {
+	border-bottom: 1px solid #ededde;
+}
+.nav-list>li:hover {
+	background: #EEEEEE;
+}
